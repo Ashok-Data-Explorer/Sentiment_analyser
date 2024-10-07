@@ -6,6 +6,13 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from PIL import Image, ImageDraw  # Import Pillow for image processing
 from nltk.corpus import stopwords
+
+# Download NLTK resources
+nltk.download('stopwords')
+nltk.download('wordnet')
+
+# Set up stopwords
+stop_words = set(stopwords.words('english'))
 print(stopwords.words('english'))
 
 
