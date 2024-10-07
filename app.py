@@ -5,6 +5,9 @@ import pickle
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from PIL import Image, ImageDraw  # Import Pillow for image processing
+from nltk.corpus import stopwords
+print(stopwords.words('english'))
+
 
 # Function to create a round image
 def make_round_image(image_path):
